@@ -75,7 +75,7 @@
   width: 20rem;
 }
 
-.addBook {
+.adBook {
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
@@ -83,7 +83,7 @@
   padding: 0 2rem;
 }
 
-.addBookForm {
+.bookForm {
   display: flex;
   gap: 1rem;
 }

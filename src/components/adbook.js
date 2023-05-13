@@ -1,10 +1,10 @@
 import React from 'react';
 
-const AddBook = () => (
-  <div className="addBook">
-    <h3>ADD NEW BOOK</h3>
-    <form className="addBookForm">
-      <input type="text" placeholder="Book title" />
+const AdBook = () => (
+  <div className="adBook">
+    <h2>ADD NEW BOOK</h2>
+    <form className="bookForm">
+      <input type="text" placeholder="Book Title" />
       <select key="author">
         <option value="Authors">Authors</option>
       </select>
@@ -14,4 +14,4 @@ const AddBook = () => (
   </div>
 );
 
-export default AddBook;
+export default AdBook;
