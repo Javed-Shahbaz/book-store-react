@@ -1,19 +1,10 @@
 import React from 'react';
-import AddBook from './AddBook';
-import BookCard from './BookCard';
+import AdBook from './AdBook';
+import BookCard from './cards';
 
-const Books = () => {
-  const books = [{
+const Book = () => {
+  const book = [{
     id: '1',
-    category: 'Action',
-    title: 'The Hunger Games',
-    author: 'Suzanne Collins',
-    progres: '64%',
-    currentChapter: 'CURRENT CHAPTER',
-    chapterNumber: 'Chapter17',
-  },
-  {
-    id: '2',
     category: 'Science Fiction',
     title: 'Dune',
     author: 'Frank Herbert',
@@ -22,7 +13,7 @@ const Books = () => {
     chapterNumber: 'Chapter3: *A Lesson Learned*',
   },
   {
-    id: '3',
+    id: '2',
     category: 'Economy',
     title: 'Capital in the Twenty-First Century',
     author: 'Suzanne Collins',
@@ -32,9 +23,9 @@ const Books = () => {
   }];
   return (
     <div>
-      <BookCard key={books.id} book={books} />
-      <AddBook />
+      <BookCard key={book.id} book={book} />
+      <AdBook />
     </div>
   );
 };
-export default Books;
+export default Book;
