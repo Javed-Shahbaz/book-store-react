@@ -31,13 +31,13 @@
   text-decoration: none;
 }
 
-.mainContainer {
+.main {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
-.bookContainer {
+.bookCont {
   display: flex;
   justify-content: space-between;
   padding: 4rem;
@@ -51,24 +51,24 @@
   gap: 1rem;
 }
 
-.bookTitle {
+.title {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
   width: 20rem;
 }
 
-.buttonsList li {
+.buttons li {
   list-style: none;
 }
 
-.bookChart {
+.bChart {
   display: flex;
   gap: 0.5rem;
   width: 10rem;
 }
 
-.bookChapter {
+.bookChap {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;

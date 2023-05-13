@@ -2,28 +2,28 @@ import React from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import Proptypes from 'prop-types';
 
-const BookCard = ({ book }) => {
-  const renderBooks = book.map((book) => (
+const bookCard = ({ book }) => {
+  const rendBooks = book.map((book) => (
     <>
-      <div className="bookContainer">
-        <div className="bookTitle">
+      <div className="bookCont">
+        <div className="title">
           <p>{ book.category }</p>
           <p>{ book.title }</p>
           <p>{ book.author }</p>
-          <ul className="buttonsList">
+          <ul className="buttons">
             <li><button type="button">Comments</button></li>
             <li><button type="button">Remove</button></li>
             <li><button type="button">Edit</button></li>
           </ul>
         </div>
-        <div className="bookChart">
+        <div className="bChart">
           <div>Chart</div>
           <div>
             <p>{ book.progres }</p>
             <p>COMPLETED</p>
           </div>
         </div>
-        <div className="bookChapter">
+        <div className="bookChap">
           <p>{ book.currentChapter }</p>
           <p>{ book.chapterNumber }</p>
           <button type="button">Update Progress</button>
@@ -32,8 +32,8 @@ const BookCard = ({ book }) => {
     </>
   ));
   return (
-    <div className="mainContainer">
-      { renderBooks }
+    <div className="main">
+      { rendBooks }
     </div>
   );
 };
@@ -42,4 +42,4 @@ BookCard.propTypes = {
   book: Proptypes.arrayOf(Proptypes.shape({})).isRequired,
 };
 
-export default BookCard;
+export default bookCard;
