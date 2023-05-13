@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.navBar {
+.nav-bar {
   height: 4rem;
   display: flex;
   align-items: center;
@@ -12,18 +12,18 @@
   justify-content: space-between;
 }
 
-.navItems {
+.nav-items {
   display: flex;
   gap: 3rem;
 }
 
-.navLinks {
+.nav-links {
   display: flex;
   gap: 2rem;
   align-items: center;
 }
 
-.navLinks li {
+.nav-links li {
   list-style: none;
 }
 
