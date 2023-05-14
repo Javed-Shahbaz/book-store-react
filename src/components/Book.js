@@ -5,6 +5,15 @@ import BookCard from './cards';
 const Book = () => {
   const book = [{
     id: '1',
+    category: 'Action',
+    title: 'The Hunger Games',
+    author: 'Suzanne Collins',
+    progres: '64%',
+    currentChapter: 'CURRENT CHAPTER',
+    chapterNumber: 'Chapter17',
+  },
+  {
+    id: '2',
     category: 'Science Fiction',
     title: 'Dune',
     author: 'Frank Herbert',
@@ -13,7 +22,7 @@ const Book = () => {
     chapterNumber: 'Chapter3: *A Lesson Learned*',
   },
   {
-    id: '2',
+    id: '3',
     category: 'Economy',
     title: 'Capital in the Twenty-First Century',
     author: 'Suzanne Collins',
