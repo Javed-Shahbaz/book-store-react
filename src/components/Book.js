@@ -1,5 +1,5 @@
 import React from 'react';
-import AdBook from './AdBook';
+import AdBook from './adbook';
 import BookCard from './cards';
 
 const Book = () => {

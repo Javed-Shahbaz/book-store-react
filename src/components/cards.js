@@ -38,7 +38,7 @@ const bookCard = ({ book }) => {
   );
 };
 
-BookCard.propTypes = {
+bookCard.propTypes = {
   book: Proptypes.arrayOf(Proptypes.shape({})).isRequired,
 };
 
