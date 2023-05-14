@@ -11,7 +11,7 @@ function App() {
       <Nav />
       <Routes>
         <Route exact path="/" element={<Book />} />
-        <Route exact path="catagory" element={<Categories />} />
+        <Route exact path="categories" element={<Categories />} />
       </Routes>
 
     </div>
