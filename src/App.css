@@ -14,12 +14,12 @@
 
 .nav-items {
   display: flex;
-  gap: 3rem;
+  gap: 3em;
 }
 
 .nav-links {
   display: flex;
-  gap: 2rem;
+  gap: 2em;
   align-items: center;
 }
 
@@ -42,13 +42,13 @@
   justify-content: space-between;
   padding: 4rem;
   border: 1px solid black;
-  gap: 1rem;
+  gap: 1em;
   align-items: center;
 }
 
-.buttonsList {
+.buttons {
   display: flex;
-  gap: 1rem;
+  gap: 1em;
 }
 
 .title {
