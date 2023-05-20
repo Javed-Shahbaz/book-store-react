@@ -1,8 +1,12 @@
 import React from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
-import Proptypes from 'prop-types';
+import { useSelector, useDispatch } from 'react-redux';
+import { removeBook } from '../redux/books/bookSlice';
+import { addBook } from '../redux/books/bookSlice';
 
 const bookCard = ({ book }) => {
+  const {addBook} = useSelector((state) => state.book);
+  const dispatch = useDispatch();
+
   const rendBooks = book.map((book) => (
     <>
       <div className="bookCont">
@@ -12,7 +16,7 @@ const bookCard = ({ book }) => {
           <p>{ book.author }</p>
           <ul className="buttons">
             <li><button type="button">Comments</button></li>
-            <li><button type="button">Remove</button></li>
+            <li><button type="button"onClick={() => dispatch(removeBook(book.item_id))}>Remove</button></li>
             <li><button type="button">Edit</button></li>
           </ul>
         </div>
@@ -37,9 +41,4 @@ const bookCard = ({ book }) => {
     </div>
   );
 };
-
-bookCard.propTypes = {
-  book: Proptypes.arrayOf(Proptypes.shape({})).isRequired,
-};
-
 export default bookCard;
