@@ -8,7 +8,8 @@ const Book = () => {
   return (
     <>
       {items.map((item) => (
-  <BookCard title={item.title} author={item.author} 
+  <BookCard title = {item.title} 
+  author = {item.author} 
   category={item.category} key={item.id} id={item.id} />
 ))}
       {<BookForm />}
