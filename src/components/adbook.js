@@ -4,18 +4,19 @@ import { addBook } from '../redux/books/bookSlice';
 
 function BookForm() {
   const dispatch = useDispatch();
-  const [title, settitle] = useState("");
-  const [author, setauthor] = useState("");
-  const [category, setCategory] = useState("");
+  const [title, settitle] = useState('');
+  const [author, setauthor] = useState('');
+  const [category, setCategory] = useState('');
 
   const addbook = (e) => {
     e.preventDefault();
     const id = Date.now();
-    dispatch(addBook({ title, author, id, category
-    }));
-    settitle("");
-    setauthor("");
-    setCategory("");
+    dispatch(addBook({ title, author, id, category,
+    }
+    ));
+    settitle('');
+    setauthor('');
+    setCategory('');
   };
 
   return (
