@@ -9,7 +9,7 @@ const categorySlice = createSlice({
   initialState,
   reducers: {
     checkStatus() {
-      return 'Not Avaible';
+      return 'Under construction';
     },
   },
 });
