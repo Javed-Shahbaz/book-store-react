@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar';
 import Books from './components/Books';
-import Categories from './components/Categories';
+import Categories from './components/categories';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Books />} />
-        <Route exact path="Categories" element={<Categories />} />
+        <Route exact path="categories" element={<Categories />} />
       </Routes>
 
     </div>
