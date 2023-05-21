@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
@@ -12,7 +11,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Books />} />
-        <Route exact path="Categories" element={<Categories />} />
+        <Route exact path="categories" element={<Categories />} />
       </Routes>
 
     </div>
