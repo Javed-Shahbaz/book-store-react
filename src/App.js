@@ -1,17 +1,17 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import Nav from './components/Nav';
-import Book from './components/Book';
+import Navbar from './components/Navbar';
+import Books from './components/Books';
 import Categories from './components/categories';
 
 function App() {
   return (
     <div>
-      <Nav />
+      <Navbar />
       <Routes>
-        <Route exact path="/" element={<Book />} />
-        <Route exact path="/categories" element={<Categories />} />
+        <Route exact path="/" element={<Books />} />
+        <Route exact path="categories" element={<Categories />} />
       </Routes>
 
     </div>

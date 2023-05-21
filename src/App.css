@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.nav-bar {
+.navBar {
   height: 4rem;
   display: flex;
   align-items: center;
@@ -12,18 +12,18 @@
   justify-content: space-between;
 }
 
-.nav-items {
+.navItems {
   display: flex;
-  gap: 3em;
+  gap: 3rem;
 }
 
-.nav-links {
+.navLinks {
   display: flex;
-  gap: 2em;
+  gap: 2rem;
   align-items: center;
 }
 
-.nav-links li {
+.navLinks li {
   list-style: none;
 }
 
@@ -31,51 +31,51 @@
   text-decoration: none;
 }
 
-.main {
+.mainContainer {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
-.bookCont {
+.bookContainer {
   display: flex;
   justify-content: space-between;
   padding: 4rem;
   border: 1px solid black;
-  gap: 1em;
+  gap: 1rem;
   align-items: center;
 }
 
-.buttons {
+.buttonsList {
   display: flex;
-  gap: 1em;
+  gap: 1rem;
 }
 
-.title {
+.bookTitle {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
   width: 20rem;
 }
 
-.buttons li {
+.buttonsList li {
   list-style: none;
 }
 
-.bChart {
+.bookChart {
   display: flex;
   gap: 0.5rem;
   width: 10rem;
 }
 
-.bookChap {
+.bookChapter {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
   width: 20rem;
 }
 
-.adBook {
+.addBook {
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
@@ -83,7 +83,7 @@
   padding: 0 2rem;
 }
 
-.bookForm {
+.addBookForm {
   display: flex;
   gap: 1rem;
 }
