@@ -11,7 +11,7 @@ body {
 }
 
 /*  Navbar */
-.nav {
+.navBar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -31,12 +31,12 @@ body {
   margin: 0.375rem 2.938rem 0.125rem 0;
 }
 
-.navItem {
+.navItems {
   display: flex;
   flex-direction: row;
 }
 
-.navLink {
+.navLinks {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -46,16 +46,16 @@ body {
   list-style: none;
 }
 
-.navLink li {
+.navLinks li {
   list-style: none;
 }
 
-.navLink li a {
+.navLinks li a {
   text-decoration: none;
   color: #121212;
 }
 
-.navLink li a:hover {
+.navLinks li a:hover {
   color: black;
 }
 
@@ -66,7 +66,7 @@ body {
   gap: 2rem;
 }
 
-.bContainer {
+.bookContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -79,7 +79,7 @@ body {
   box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
 }
 
-.book-Title {
+.bookTitle {
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -101,12 +101,12 @@ body {
   color: #4386bf;
 }
 
-.buttonList {
+.buttonsList {
   display: flex;
   gap: 1rem;
 }
 
-.buttonList li {
+.buttonsList li {
   list-style: none;
 }
 
@@ -120,7 +120,7 @@ body {
   margin: 0.188rem 0.938rem 0.125rem 0;
 }
 
-.progres {
+.progress {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -134,7 +134,7 @@ body {
   align-items: center;
 }
 
-.Prog-Bar {
+.ProgressBar {
   margin-right: 10%;
 }
 
@@ -195,13 +195,13 @@ body {
   font-size: 2em;
 }
 
-.percentage {
+.percentages {
   display: flex;
   flex-direction: column;
   margin-left: 5%;
 }
 
-.percentage h2 {
+.percentages h2 {
   margin-right: 10%;
   margin-bottom: 0;
   font-size: 2rem;

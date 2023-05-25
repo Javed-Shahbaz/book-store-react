@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => (
-  <nav className="nav">
-    <div className="navItem">
+  <nav className="navBar">
+    <div className="navItems">
       <h2 className="navTitle">Bookstore CMS</h2>
-      <ul className="navLink">
+      <ul className="navLinks">
         <li><Link to="/">Books</Link></li>
         <li><Link to="categories">Categories</Link></li>
       </ul>
