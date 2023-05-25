@@ -195,7 +195,7 @@ body {
   font-size: 2em;
 }
 
-.percentages {
+.percentage {
   display: flex;
   flex-direction: column;
   margin-left: 5%;
