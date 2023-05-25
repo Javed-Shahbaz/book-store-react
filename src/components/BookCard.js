@@ -23,7 +23,7 @@ const BookCard = () => {
         <p className="category">{book.category}</p>
         <p className="title">{book.title}</p>
         <p className="author">{book.author}</p>
-        <ul className="buttonsList">
+        <ul className="buttonList">
           <li><button className="bookBtn" type="button">Comments</button></li>
           <li><button className="bookBtn" type="button" onClick={() => dispatch(deleteBook(book.item_id))}>Remove</button></li>
           <li><button className="bookBtn" type="button">Edit</button></li>

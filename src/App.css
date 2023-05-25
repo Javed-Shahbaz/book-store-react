@@ -101,12 +101,12 @@ body {
   color: #4386bf;
 }
 
-.buttonsList {
+.buttonList {
   display: flex;
   gap: 1rem;
 }
 
-.buttonsList li {
+.buttonList li {
   list-style: none;
 }
 
