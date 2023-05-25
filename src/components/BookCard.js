@@ -18,8 +18,8 @@ const BookCard = () => {
   }
 
   const renderBooks = books.map((book) => (
-    <div key={book.item_id} className="bookContainer">
-      <div className="bookTitle">
+    <div key={book.item_id} className="bContainer">
+      <div className="book-Title">
         <p className="category">{book.category}</p>
         <p className="title">{book.title}</p>
         <p className="author">{book.author}</p>
