@@ -29,9 +29,9 @@ const BookCard = () => {
           <li><button className="bookBtn" type="button">Edit</button></li>
         </ul>
       </div>
-      <div className="progress">
+      <div className="progres">
         <div className="chart">
-          <div className="ProgressBar">
+          <div className="Prog-Bar">
             <div className="circle-wrap">
               <div className="circle">
                 <div className="mask half">
