@@ -36,7 +36,7 @@ body {
   flex-direction: row;
 }
 
-.navLinks {
+.navLink {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -46,16 +46,16 @@ body {
   list-style: none;
 }
 
-.navLinks li {
+.navLink li {
   list-style: none;
 }
 
-.navLinks li a {
+.navLink li a {
   text-decoration: none;
   color: #121212;
 }
 
-.navLinks li a:hover {
+.navLink li a:hover {
   color: black;
 }
 
