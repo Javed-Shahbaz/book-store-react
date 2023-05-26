@@ -43,13 +43,13 @@ const BookCard = () => {
           </div>
         </div>
         <div className="percentages">
-          <h2>33%</h2>
+          <h2>43%</h2>
           <p className="status">Completed</p>
         </div>
       </div>
       <div className="bookChapter">
         <p className="currentChapter">currentChapter</p>
-        <p>chapter3</p>
+        <p>chapter 5</p>
         <button className="updateProgress" type="button">Update Progress</button>
       </div>
     </div>
