@@ -1,77 +1,86 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
+<div align="center">
+  
+  <h3><b>Book Store README</b></h3>
 
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
+</div>
 
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 Book-Store ](#-Book-Store-)
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [💻 Getting Started ](#-getting-started-)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Install](#install)
-    - [Usage](#usage)
-    - [Run tests](#run-tests)
-    - [Deployment](#deployment)
-  - [👥 Authors ](#-authors-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [📝 License ](#-license-)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Book Store <a name="about-project"></a>
+# 📖 [Book-store-react] <a name="about-project"></a>
 
-> This is React App setup project from Microverse.
 
-**Book Store** is simply a JavaScript based project that develops our understanding with professional needs. This also include many configuration settings to keep my code clean.
+
+**[Book-store-react]** is a project in which a collection of books displayed. Use can add/remove books from this bookstore.
 
 ## 🛠 Built With <a name="built-with"></a>
+- JavaScript
+- React
+- Redux
+- HTML
+- CSS
+- API
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> This projet used for only
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://developer.mozilla.org/es/docs/Web/HTML">HTML</a></li>
-  </ul>
-  <ul>
-    <li><a href="https://developer.mozilla.org/es/docs/Web/CSS">CSS</a></li>
+    <li><a href="#">HTML, CSS, JavaScript, React, Redux, API</a></li>
   </ul>
 </details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://localhost:3000/">Dev Server</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Pakage Manager</summary>
+  <ul>
+    <li><a href="#">NPM</a></li>
+  </ul>
+</details>
+<details>
+  <summary>API</summary>
+  <ul>
+    <li><a href="#">External API</a></li>
+  </ul>
+</details>
+
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
--   **It is helpful in understanding the basics of a React**
--   **This project provide modern approach toward the web & mobile  App development.
+- **[Allow to use add new book]**
+- **[Allow to remove the book]**
+- **[Allow to comment the book]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,7 +88,6 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -87,78 +95,71 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!-- Example command: ```sh 
- gem install rails
-```
- -->
+- A web browser to view output e.g [Google Chrome](https://www.google.com/chrome/).
+- An IDE e.g [Visual studio code](https://code.visualstudio.com/).
+- `node` should be installed in your local machine, [node website](https://nodejs.org/en/download/).
+- Install the `npm` package manager use this [to install both node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+- [A terminal](https://code.visualstudio.com/docs/terminal/basics).
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder or download the Zip folder:
 
-<!--
-Example commands:
-
-```sh
-  cd portfolio-folder
-  git clone git@github.com:myaccount/my-project.git
 ```
---->
+https://github.com/Javed-Shahbaz/book-store-react
+```
+
+- Navigate to the location of the folder in your machine:
+
+**``you@your-Pc-name:~$ cd book-store-react``**
 
 ### Install
 
-Install this project with:
+To install all dependencies, run:
 
-<!--
-Example command:
-
-```sh
-  cd Hello-project
-  gem install
 ```
---->
+npm install
+```
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, follow these instructions:
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+- After Cloning this repo to your local machine.
+- You can also use `npm start` command in terminal to run this at localhost:3000
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
+- Track HTML linter errors run:
 ```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
+npx hint .
 ```
- -->
+- Track CSS linter errors run:
+```
+npx stylelint "**/*.{css,scss}"
+```
+- Track JavaScript linter errors run:
+```
+npx eslint .
+```
+- run test:
+```
+npm run test 
+```
+
+### Deployment <a name="deployment"></a>
+
+You can deploy this project using: GitHub Pages,
+- I used GitHub Pages to deploy my website.
+- For more information about publishing sources, see "[About GitHub pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)".
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 👤 **Javed Shahbaz**
 
@@ -172,9 +173,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add Test functions]**
-- [ ] **[Add API]**
-
+- [ ] **[I will add all important features in future]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -182,10 +181,9 @@ Example:
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-https://github.com/Javed-Shahbaz/book-store-react/issues
+Contributions, issues, and feature requests are welcome!
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Feel free to check the [issues page](https://github.com/Javed-Shahbaz/book-store-react/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -193,7 +191,7 @@ https://github.com/Javed-Shahbaz/book-store-react/issues
 
 ## ⭐️ Show your support <a name="support"></a>
 
-Please like this project by giving me a star ⭐️
+If you like this project give me a star ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -201,9 +199,17 @@ Please like this project by giving me a star ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> I would like to thank all of you.
+Thanks to Zeplin project for the book design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ  -->
+
+## ❓ FAQ <a name="faq"></a>
+
+- **[How this project works]**
+
+  - [You can add/remove books from book store.]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
