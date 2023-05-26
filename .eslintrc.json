@@ -29,7 +29,6 @@
       }
     ],
     "ignorePatterns": [
-      "temp.js", "**/vendor/*.js",
       "dist/",
       "build/"
     ]
